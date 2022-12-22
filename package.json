@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "cleanup": "nuxt cleanup",
+    "format": "npx prettier . -w"
+  },
+  "devDependencies": {
+    "@nuxt/content": "^2.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@unocss/nuxt": "^0.48.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.8.0",
+    "nuxt": "3.0.0"
+  }
+}
