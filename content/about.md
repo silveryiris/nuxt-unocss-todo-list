@@ -9,3 +9,5 @@ Nuxt content 測試
 
 - {{title}} 標題測試
 - description
+
+[Back home](/)
