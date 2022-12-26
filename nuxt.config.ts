@@ -1,7 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: ["@unocss/nuxt", "@nuxt/content", "@nuxtjs/color-mode"],
-  // extends: "@nuxt-themes/typography",
   colorMode: {
     classSuffix: "",
   },
@@ -12,7 +11,23 @@ export default defineNuxtConfig({
     // presets
     uno: true, // enabled `@unocss/preset-uno`
     icons: true, // enabled `@unocss/preset-icons`
-    attributify: true, // enabled `@unocss/preset-attributify`,
+    attributify: true, // enabled `@unocss/preset-attributify`
+    typography: {
+      // cssExtend: {
+      //   "a:visited": {
+      //     "border-bottom": "1px dashed",
+      //     "text-decoration": "none",
+      //   },
+      //   "a:link": {
+      //     "border-bottom": "1px dashed",
+      //     "text-decoration": "none",
+      //   },
+      //   "a:hover": {
+      //     "border-bottom": "1px solid",
+      //     "text-decoration": "none",
+      //   },
+      // },
+    }, // enabled `@unocss/preset-typography`
 
     // core options
     shortcuts: [
@@ -22,6 +37,8 @@ export default defineNuxtConfig({
         "bg-base": "bg-gray-100 dark:bg-gray-900",
         "ring-base": "ring-gray-200 dark:ring-gray-700",
         "bg-content": "bg-white dark:bg-gray-800",
+        "linked-border": "no-underline border-0 border-b-2 border-dashed hover:border-solid",
+        "linked-color": "border-slate-100 text-slate-100 hover:border-red-300 hover:text-red-300",
       },
     ],
     rules: [],
