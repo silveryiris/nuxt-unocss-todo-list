@@ -1,7 +1,8 @@
 <template>
-  <h1
+  <h3
     :id="id"
-    font-extrabold
+    prose
+    prose-blue
     dark:prose-invert
     flex
     items-center
@@ -12,8 +13,8 @@
       <slot />
     </NuxtLink>
 
-    <span v-show="showLinkIcon" i-heroicons-star inline-block ml-4 w-7 h-7></span>
-  </h1>
+    <span v-show="showLinkIcon" i-heroicons-link-solid inline-block ml-4 w-4 h-4></span>
+  </h3>
 </template>
 
 <script setup lang="ts">

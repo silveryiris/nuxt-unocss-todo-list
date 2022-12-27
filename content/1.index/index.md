@@ -18,10 +18,10 @@ Nuxt document driven 設定 [ok]{.text-red-700}
 測試 slot
 ::
 
-- <i inline-block i-heroicons-arrow-path-solid></i>Hero icon 測試 []{.flex.i-heroicons-arrow-path-solid}
+- <span inline-block i-heroicons-arrow-path-solid></span>Hero icon 測試
 
 <div c-rose >test</div>
 <div c-rose >test</div>
 <div text="red-700" >test2</div>
 
-[連結測試](#首頁)
+[連結測試](#h1-首頁)
